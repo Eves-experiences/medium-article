@@ -1,0 +1,53 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-title {
+  font-size: 36px;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.banner-description {
+  font-size: 18px;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.article-header {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.article-paragraph {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.article-link {
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.article-link:hover {
+  color: red;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
